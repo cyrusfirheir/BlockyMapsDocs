@@ -1,3 +1,4 @@
+
 `setup.bm.mapZoom([level])`
 
 'Zooms' the camera in or out of the map to the specified level.
@@ -6,7 +7,7 @@
 - `v1.0.0`
 
 **Parameters:**
-- `level` : (optional, *integer*) Percentage of the zoom. Recommended range from 10 to 250. Default is 100.
+- `level` : (optional, *integer*) Percentage of the zoom. Recommended range from 10 to 250. Default to 100.
 
 **Example:**
 ```js

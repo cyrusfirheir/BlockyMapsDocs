@@ -1,0 +1,50 @@
+
+:root {
+	--theme-color: #ff408c;
+	--link-color: #ff80b0;
+	--link-color--hover: #ff0060;
+	--code-theme-text: #b3f7ff;
+
+	--sidebar-nav-link-background-color--active: var(--mono-shade3);
+	--sidebar-nav-link-background-color--hover: var(--mono-tint1);
+
+	--copycode-background: #bf004c;
+	--copycode-color: whitesmoke;
+}
+
+em {
+	color: #c1d5e0;
+}
+
+#app {
+	position: fixed;
+	z-index: 100;
+	top: calc(50% - 1.25em);
+	left: 0;
+	width: 100%;
+	line-height: 1;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--mono-tint1);
+}
+
+::-webkit-scrollbar-track:hover {
+	background: var(--mono-shade3);
+}
+
+::-webkit-scrollbar-thumb {
+  box-sizing: content-box;
+  background: var(--link-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: var(--link-color--hover);
+}
