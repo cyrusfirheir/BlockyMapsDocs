@@ -4,7 +4,8 @@ A tool made to facilitate an interactive and easy to set-up map/world-navigation
 
 **The maps in game:**  
 
-![](https://imgur.com/mNMAZm5.png)
+![](https://imgur.com/mNMAZm5.png)  
+
 Live demo [here](https://cyrusfirheir.github.io/BlockyMaps/#demo).
 (Icons are not included with the library)
 
