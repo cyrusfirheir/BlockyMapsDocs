@@ -1,5 +1,4 @@
-
-# `setup.bm.mapZoom([level])`
+`setup.bm.mapZoom([level])`
 
 'Zooms' the camera in or out of the map to the specified level.
 

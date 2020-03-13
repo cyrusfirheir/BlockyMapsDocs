@@ -1,5 +1,4 @@
-
-# `setup.bm.pMove(dir [, dist])`
+`setup.bm.pMove(dir [, dist])`
 
 Moves the `player` CSS class across the map in the specified direction, and optionally, by the specified amount of blocks.
 

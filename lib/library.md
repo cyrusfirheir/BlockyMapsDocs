@@ -1,6 +1,6 @@
 As mentioned earlier, map data is handled as a JSON object, and this allows for a lot of flexibility in regards to management of multiple maps.
 
-The simplest map object might look something like this (*See [Map Object Template](lib/map-obj.md) for more details*):
+The simplest map object might look something like this (*See [Map Object Template](../lib/map-obj.md) for more details*):
 
 ```json
 {
