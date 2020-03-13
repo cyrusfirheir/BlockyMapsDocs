@@ -20,5 +20,6 @@ Global Twine variables currently used by the library:
 > `$curMap` : (*object*) Map object which is currently being displayed.  
 > `$curPos` : (*string*) Position of the player on the map.
 
-> ***Note!***
-> All library functions are under the `setup.bm` namespace.
+{% hint style="info" %}  
+**NOTE:** All library functions are under the `setup.bm` namespace.  
+{% endhint %}
