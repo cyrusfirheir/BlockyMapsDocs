@@ -5,12 +5,13 @@
 
 ### The maps in game {docsify-ignore}
 *(Icons are not included with the library)*  
-Live demo [here](https://cyrusfirheir.github.io/BlockyMaps/#demo) (not yet complete for mobile devices).
+Live demo [here](https://cyrusfirheir.github.io/BlockyMaps/#demo) (not yet compatible with mobile devices).
 
 ![Showcase](./img/bm-showcase1.png)
 ![Showcase](./img/bm-showcase2.png)
 
 ### The editor in action {docsify-ignore}
+Editor [here](https://cyrusfirheir.github.io/BlockyMaps/) (not yet compatible with mobile devices).
 
 ![Editor](./img/bm-editor1.png)
 ![Editor](./img/bm-editor2.png)
