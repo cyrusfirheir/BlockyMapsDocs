@@ -3,7 +3,7 @@
 
 The default UI looks like this:
 
-![ui-breakdown](../img/bm-ui-breakdown.png)
+![ui-breakdown](../img/bm-ui.png)
 
 - `1` : Name
 - `2` : Description
