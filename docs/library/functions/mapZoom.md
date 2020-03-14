@@ -1,4 +1,6 @@
 
+### mapZoom() :id=fn-mapzoom
+
 `setup.bm.mapZoom([level])`
 
 'Zooms' the camera in or out of the map to the specified level.

@@ -1,9 +1,9 @@
 
-## The Library {docsify-ignore}
+# The Library
 
 As mentioned earlier, map data is handled as a JSON object, and this allows for a lot of flexibility in regards to management of multiple maps.
 
-The simplest map object might look something like this (*See [The Map object](library?id=the-map-object) for more details*):
+The simplest map object might look something like this (*See [The Map object](library?id=mapobj) for more details*):
 
 ```js
 const mapObj = {
@@ -25,39 +25,31 @@ Global Twine variables currently used by the library:
 
 ## Functions
 
-?> **NOTE:**  
-All library functions are under the `setup.bm` namespace.  
+?> All library functions are under the `setup.bm` namespace.  
 
 ---
-
-### gotoMap()
-[gotoMap](lib/gotoMap.md ':include')
+[gotoMap](./library/functions/gotoMap.md ':include type=markdown')
 
 ---
-
-### pMove()
-[pMove](lib/pMove.md ':include')
+[pMove](./library/functions/pMove.md ':include type=markdown')
 
 ---
-
-### pMoveCoords()
-[pMoveCoords()](lib/pMoveCoords.md ':include')
+[pMoveCoords()](./library/functions/pMoveCoords.md ':include type=markdown')
 
 ---
-
-### cameraFollow()
-[cameraFollow()](lib/cameraFollow.md ':include')
+[cameraFollow()](./library/functions/cameraFollow.md ':include type=markdown')
 
 ---
-
-### mapZoom()
-[mapZoom()](lib/mapZoom.md ':include')
+[mapZoom()](./library/functions/mapZoom.md ':include type=markdown')
 
 ---
-
-### drawMap()
-[drawMap()](lib/drawMap.md ':include')
+[drawMap()](./library/functions/drawMap.md ':include type=markdown')
 
 ---
+[The Map object](./library/mapObj.md ':include type=markdown')
 
-[The Map object](lib/mapObj.md ':include')
+---
+[The UI](./library/ui.md ':include type=markdown')
+
+---
+[The Markup](./library/markup.md ':include type=markdown')

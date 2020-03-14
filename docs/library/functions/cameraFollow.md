@@ -1,4 +1,6 @@
 
+### cameraFollow() :id=fn-camerafollow
+
 `setup.bm.cameraFollow([target])`
 
 Focuses the 'camera' on the specified target. Defaults to focusing on the very first block of the map.

@@ -7,18 +7,18 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css">
 	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="app">Loading...</div>
   <script>
     window.$docsify = {
-      name: '',
+      name: 'Blocky Maps',
 			repo: 'https://github.com/cyrusfirheir/BlockyMaps',
+			subMaxLevel: 6,
 			loadSidebar: true,
-			subMaxLevel: 4,
-			maxLevel: 4,
+			formatUpdated: '<div style="font-size:0.75em; text-align:right;"><em>(Last updated {MM}-{DD}-{YYYY}, {HH}:{mm})</em></div>',
+			notFoundPage: 'README.md',
 			auto2top: true,
 			pagination: {
 		    crossChapter: true
@@ -28,5 +28,10 @@
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 	<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 	<script src="https://unpkg.com/docsify-copy-code@2"></script>
+	<!-- <script>
+	  if (typeof navigator.serviceWorker !== 'undefined') {
+	    navigator.serviceWorker.register('sw.js')
+	  }
+	</script> -->
 </body>
 </html>

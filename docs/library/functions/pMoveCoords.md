@@ -1,4 +1,6 @@
 
+### pMoveCoords() :id=fn-pmovecoords
+
 `setup.bm.pMoveCoords(coords [, override])`
 
 Moves the `player` CSS class across the map to the specified coordinates, and optionally, even to `solid` CSS class blocks, which the player isn't supposed to be able to move through otherwise.

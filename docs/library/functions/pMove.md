@@ -1,4 +1,6 @@
 
+### pMove() :id=fn-pmove
+
 `setup.bm.pMove(dir [, dist])`
 
 Moves the `player` CSS class across the map in the specified direction, and optionally, by the specified amount of blocks. Focuses the camera on the player.
@@ -12,9 +14,12 @@ Moves the `player` CSS class across the map in the specified direction, and opti
 
 **Example:**
 ```js
-// moves a block down
-setup.bm.pMove("down");
+// moves a block to the left
+setup.bm.pMove("left");
 
-// moves two blocks to the left
-setup.bm.pMove("left", 2);
+// creates a link which causes the player to move two blocks down
+// (in SugarCube)
+<<link "Run South">>
+	<<run setup.bm.pMove("down", 2);
+<</link>>
 ```
